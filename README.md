@@ -20,7 +20,7 @@
 
 ##### 开始编码
 
-- POST http://multimediacloud.elasticbeanstalk.com/encode/start
+- POST http://multimediacloud.elasticbeanstalk.com/api/encode/start
 - 参数  
   - url: 原始视频URL
   - mode: 编码方式
@@ -29,7 +29,7 @@
 
 ##### 停止编码
 
-- POST http://multimediacloud.elasticbeanstalk.com/encode/stop
+- POST http://multimediacloud.elasticbeanstalk.com/api/encode/stop
 - 参数
   - id: 编码任务ID
 - 返回
@@ -37,7 +37,7 @@
 
 ##### 查看编码状态
 
-- GET http://multimediacloud.elasticbeanstalk.com/encode/status
+- GET http://multimediacloud.elasticbeanstalk.com/api/encode/status
 - 参数
   - id: 编码任务ID
 - 返回
