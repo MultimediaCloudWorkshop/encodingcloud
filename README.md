@@ -1,12 +1,14 @@
 # 云编码  
+
 Encoding Cloud  
+
+（开发中）  
 
 ### 特点  
 - 简单  
 - 稳定  
   - Auto Scaling & Load Balance
   - AWS Cloud Native
-  - FFmpeg Core
   - Video Cache
   - Open Source   
 - 多种编码方式
